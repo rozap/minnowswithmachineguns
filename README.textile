@@ -75,17 +75,15 @@ You have been warned.
 
 h2. Bugs
 
-Please log your bugs on the "Github issues tracker":http://github.com/newsapps/beeswithmachineguns/issues.
+Please log your bugs on the "Github issues tracker":http://github.com/rozap/minnowswithmachineguns/issues.
 
 h2. Credits
 
-h3. Minnows with machine guns is 99% code from "Bees with Machine Guns":http://github.com/newsapps/beeswithmachineguns but with some changes to make it work for Digital Ocean rather than AWS. All credit goes to them. 
+h3. Minnows with machine guns is 99.99% code from "Bees with Machine Guns":http://github.com/newsapps/beeswithmachineguns but with some changes to make it work for Digital Ocean rather than AWS. All credit goes to them. 
 
 The original bees with machine guns are a creation of the News Applications team at the Chicago Tribune--visit "our blog":http://apps.chicagotribune.com/ and read "our original post about the project":http://blog.apps.chicagotribune.com/2010/07/%2008/bees-with-machine-guns/.
 
 Initial refactoring code and inspiration from "Jeff Larson":http://github.com/thejefflarson.
-
-Thanks to everyone who reported bugs against the alpha release.
 
 h2. License
 
