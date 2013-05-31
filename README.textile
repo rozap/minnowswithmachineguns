@@ -1,6 +1,6 @@
 h1. Minnows with Machine Guns!
 
-A utility for arming (creating) many minnows (digital ocean instances) to attack (load test) targets (web applications).
+A utility for arming (creating) many minnows (digital ocean instances) to attack (load test) targets (web applications). Based on  "Bees with Machine Guns":http://github.com/newsapps/beeswithmachineguns
 
 h2. Dependencies
 
@@ -27,7 +27,7 @@ h2. Installation for developers (w/ virtualenv + virtualenvwrapper)
 <pre>
 git clone git://github.com/newsapps/minnowswithmachineguns.git
 cd minnowswithmachineguns
-mkvirtualenv --no-site-packages bees
+mkvirtualenv --no-site-packages minnows
 easy_install pip
 pip install -r requirements.txt
 </pre>
@@ -41,9 +41,9 @@ h2. Usage
 A typical bees session looks something like this:
 
 <pre>
-bees up -s 4 -c <YOUR CLIENT KEY> -a <YOUR API KEY>
-bees attack -n 10000 -c 250 -u http://www.ournewwebbyhotness.com/
-bees down
+minnows up -s 4 -c <YOUR CLIENT KEY> -a <YOUR API KEY>
+minnows attack -n 10000 -c 250 -u http://www.ournewwebbyhotness.com/
+minnows down
 </pre>
 
 This spins up 4 servers and loads your public key which is expected to live in ~/.ssh/id_rsa.pub into their authorized hosts. Then it installs apache bench (apache2-utils). It connects using the root login and without a password, just your keypair. 
@@ -73,7 +73,8 @@ h2. Bugs
 Please log your bugs on the "Github issues tracker":http://github.com/newsapps/beeswithmachineguns/issues.
 
 h2. Credits
-Minnows with machine guns is 99% code from "Bees with Machine Guns":http://github.com/newsapps/beeswithmachineguns but with some changes to make it work for Digital Ocean rather than AWS. All credit goes to them. 
+
+h3. Minnows with machine guns is 99% code from "Bees with Machine Guns":http://github.com/newsapps/beeswithmachineguns but with some changes to make it work for Digital Ocean rather than AWS. All credit goes to them. 
 
 The original bees with machine guns are a creation of the News Applications team at the Chicago Tribune--visit "our blog":http://apps.chicagotribune.com/ and read "our original post about the project":http://blog.apps.chicagotribune.com/2010/07/%2008/bees-with-machine-guns/.
 
