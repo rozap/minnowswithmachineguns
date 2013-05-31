@@ -1,6 +1,6 @@
 h1. Minnows with Machine Guns!
 
-A utility for arming (creating) many minnows (digital ocean instances) to attack (load test) targets (web applications).
+A utility for arming (creating) many minnows (digital ocean instances) to attack (load test) targets (web applications). Based on  "Bees with Machine Guns":http://github.com/newsapps/beeswithmachineguns
 
 h2. Dependencies
 
@@ -73,7 +73,8 @@ h2. Bugs
 Please log your bugs on the "Github issues tracker":http://github.com/newsapps/beeswithmachineguns/issues.
 
 h2. Credits
-Minnows with machine guns is 99% code from "Bees with Machine Guns":http://github.com/newsapps/beeswithmachineguns but with some changes to make it work for Digital Ocean rather than AWS. All credit goes to them. 
+
+h3. Minnows with machine guns is 99% code from "Bees with Machine Guns":http://github.com/newsapps/beeswithmachineguns but with some changes to make it work for Digital Ocean rather than AWS. All credit goes to them. 
 
 The original bees with machine guns are a creation of the News Applications team at the Chicago Tribune--visit "our blog":http://apps.chicagotribune.com/ and read "our original post about the project":http://blog.apps.chicagotribune.com/2010/07/%2008/bees-with-machine-guns/.
 
