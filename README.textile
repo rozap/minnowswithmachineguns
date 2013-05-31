@@ -34,6 +34,11 @@ pip install -r requirements.txt
 
 h2. Configuring Digital Ocean credentials
 
+You'll need to setup a keypair for access. A tutorial on how to do so is here in steps 1 and 2.
+https://www.digitalocean.com/community/articles/how-to-set-up-ssh-keys--2
+
+Then you'll need to copy your public key into the digital ocean control panel. Login to the control panel, then click "SSH Keys", then click "Add SSH Key" and copy your public key. 
+By default, minnows with machine guns with create new instances with a copy of each public key that you have registered through the control panel.
 
 
 h2. Usage
