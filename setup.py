@@ -16,7 +16,7 @@ setup(name='minnowswithmachineguns',
           'paramiko==1.10.1'
           ],
       classifiers=[
-          'Development Status :: 0 - Beta',
+          'Development Status :: 3 - Alpha',
           'Environment :: Console',
           'Intended Audience :: Developers',
           'License :: OSI Approved :: MIT License',
