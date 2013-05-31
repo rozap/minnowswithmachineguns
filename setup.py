@@ -3,11 +3,11 @@
 from distutils.core import setup
 
 setup(name='minnowswithmachineguns',
-      version='0.0.1',
+      version='0.0.2',
       description='A utility for arming (creating) many minnows (digital ocean instances) to attack (load test) targets (web applications). Based on beeswithmachineguns',
       author='Chris Duranti',
       author_email='chrisd1891@gmail.com',
-      url='http://github.com/newsapps/beeswithmachineguns',
+      url='https://github.com/rozap/minnowswithmachineguns',
       license='MIT',
       packages=['minnowswithmachineguns'],
       scripts=['minnows'],
