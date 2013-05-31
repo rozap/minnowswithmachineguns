@@ -27,7 +27,7 @@ h2. Installation for developers (w/ virtualenv + virtualenvwrapper)
 <pre>
 git clone git://github.com/newsapps/minnowswithmachineguns.git
 cd minnowswithmachineguns
-mkvirtualenv --no-site-packages bees
+mkvirtualenv --no-site-packages minnows
 easy_install pip
 pip install -r requirements.txt
 </pre>
@@ -41,9 +41,9 @@ h2. Usage
 A typical bees session looks something like this:
 
 <pre>
-bees up -s 4 -c <YOUR CLIENT KEY> -a <YOUR API KEY>
-bees attack -n 10000 -c 250 -u http://www.ournewwebbyhotness.com/
-bees down
+minnows up -s 4 -c <YOUR CLIENT KEY> -a <YOUR API KEY>
+minnows attack -n 10000 -c 250 -u http://www.ournewwebbyhotness.com/
+minnows down
 </pre>
 
 This spins up 4 servers and loads your public key which is expected to live in ~/.ssh/id_rsa.pub into their authorized hosts. Then it installs apache bench (apache2-utils). It connects using the root login and without a password, just your keypair. 
