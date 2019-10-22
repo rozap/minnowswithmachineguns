@@ -13,7 +13,7 @@ setup(name='minnowswithmachineguns',
       scripts=['minnows'],
       install_requires=[
           'dop==0.1.4',
-          'paramiko==1.10.1'
+          'paramiko==2.0.9'
           ],
       classifiers=[
           'Development Status :: 3 - Alpha',
